@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { shortenURL, redirectURL } from '../controllers/url.controller.js';
+import { shortenURL, redirectURL } from '../controllers/url.controller';
 
 const router = Router();
 

@@ -1,7 +1,7 @@
 import express from 'express'
-import urlRoutes from './routes/url.routes.js'
+import urlRoutes from './routes/url.routes'
 import cors from 'cors'
-import rateLimiter from './middlewares/rateLimiter.middleware.js'
+import rateLimiter from './middlewares/rateLimiter.middleware'
 
 const app = express();
 app.use(cors())
